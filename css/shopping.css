@@ -1,0 +1,42 @@
+.content {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 1200px;
+  font-weight: bold; }
+
+.web-img {
+  min-width: 1200px;
+  height: 400px;
+  background: url("../images/img/top1.jpg") no-repeat; }
+
+.content ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.content ul li {
+  padding: 10px 40px;
+  box-sizing: border-box;
+  width: 20%;
+  height: 280px;
+  font-size: 14px; }
+
+.content ul li:hover {
+  box-sizing: border-box;
+  border: 1px solid #eaeaea;
+  transition: 1s linear;
+  box-shadow: 0px 0px 5px 0.5px #000; }
+
+.buy {
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  background: skyblue;
+  text-align: center;
+  margin-top: 10px; }
+
+.buy a {
+  color: #eaeaea; }
+
+.buy:hover {
+  background-color: red; }

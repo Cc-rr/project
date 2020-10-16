@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*各种格式内外边距*/
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, input {
+  margin: 0;
+  padding: 0; }
+
+/*去除列表标识符*/
+ul, ol, li {
+  list-style: none; }
+
+/*超链接下划线*/
+a {
+  text-decoration: none;
+  color: #000; }
+
+/*解决img下方4px*/
+img {
+  vertical-align: middle;
+  /*设置元素的垂直对齐方式该属性定义行内元素的基线相对于该元素所在行的基线垂直对齐   这个属性会设置单元格框中的单元格内容的对齐方式。与tabl-cell（使元素类似于td单元格】）常一起使用
+	sub垂直对齐文本的下标
+	super垂直对齐文本的上标
+	middle放置父元素的中部
+	%使用line-height属性的百分比值来排列此元素，允许使用负值
+	* 
+	* */ }
+
+/*左浮*/
+.fl {
+  float: left; }
+
+/*右浮*/
+.fr {
+  float: right; }
+
+/*清除浮动的影响*/
+.clr:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*使IE兼容h5新增标签*/
+section, article, aside, header, footer, nav, figure, main, hgroup {
+  display: block; }
+
+/*怪异盒模型*/
