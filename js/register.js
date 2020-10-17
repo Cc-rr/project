@@ -7,8 +7,8 @@ define(["jquery"],function($){
                 url:'./php/register.php',
                 data:{
                     username:$(".login_p").eq(0).val(),
-                    password:$(".login_p").eq(0).val(),
-                    repassword:$(".login_p").eq(0).val(),
+                    password:$(".login_p").eq(1).val(),
+                    repassword:$(".login_p").eq(2).val(),
                     createtime:(new Date()).getTime()
                 },
                 success:function(result){
